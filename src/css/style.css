@@ -2,3 +2,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#background {
+  background: url(../../img/background.jpg);
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  /*z-index: -1;*/
+  overflow: hidden;
+  /*opacity: 0.6;*/
+  filter: contrast(110%);
+}
