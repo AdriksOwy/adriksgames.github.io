@@ -1,11 +1,12 @@
 @font-face {
-  font-family: Lato;
-  src: url(../../fonts/Lato.ttf)
+  font-family: "Lato";
+  src: url(../../fonts/Lato.ttf) format("ttf");
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 #background {
@@ -32,7 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3vh;
+  font: bold 3vh Lato;
   color: white;
   box-shadow: 0vh 0vh 8vh #00078a;
   text-shadow: #0004ff 0 0 3vh; /* #000b3b */
