@@ -1,8 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  cursor: url('../../img/cursor.png'), default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 body {
-  background: url(../../img/background.png) no-repeat center center fixed;
-  background-size: cover;
+  background: url('../../img/background.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+@font-face {
+  font-family: courier_regular;
+  src: url('../../fonts/consolas.ttf');
+}
+
+@font-face {
+  font-family: Aquire;
+  src: url('../../fonts/Aquire-BW0ox.otf');
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  z-index: 1;
+  border-bottom: 0.5vh ridge white;
+  box-shadow: 0 0 1vh white;
+  background-color: black;
+}
+
+.button-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8%;
+  height: 10%;
+  font-size: 5vw;
+  border: 0;
+  outline: 0;
+  z-index: 3;
+  color: white;
+  text-shadow: 0 0 1vh white;
+  background: transparent;
+}
+
+.button-menu:hover {
+  transition: 0.3s;
+  font-size: 5.5vw;
+  color: #e3e3e3;
+}
+
+.button-menu:active {
+  padding-top: 0.5vh;
+  transition: 0s;
+  text-shadow: 0 0 1vh #0069ba;
+  color: #0069ba;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  transform: translateX(100%);
+  transition: 0.5s transform ease-in-out;
+  z-index: 2;
+  border-left: 0.1vh ridge white;
+  background-color: black;
+}
+
+.button-menu:focus ~ .menu, .menu:hover {
+  transform: translateX(0);
+  box-shadow: 0 0 1vh white;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 20%;
+  list-style-type: none;
+}
+
+.menu li {
+  display: flex;
+  flex-basis: 100%;
+  height: 6vh;
+  margin-top: 4vh;
+}
+
+.menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  font: bold 1.4vw consolas, sans-serif;
+}
+
+.menu a:hover {
+  transition: 0.5s;
+  text-decoration: underline;
+  text-decoration-color:  #0069ba;
+  text-shadow: 0 0 0.5vh black;
+  color: black;
+  font: bold 1.5vw consolas, sans-serif;
+}
+
+.menu li:hover {
+  box-shadow: 0 0 1.5vh white;
+  background-color: white;
+}
+
+span {
+  position: absolute;
+  top: 10%;
+  color: white;
+  text-shadow: 0 0 1vh white;
+  font: bold 2.5vw aquire, sans-serif;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0.5vw;
+  z-index: 2;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0.5vw;
+  z-index: 2;
+}
+
+.friends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15%;
+  width: 40%;
+  height: 5vh;
+  z-index: 0;
+  color: white;
+  background-color: black;
+  border: 0.1vh ridge white;
+  border-radius: 3vh;
+  text-shadow: 0 0 0.5vh white;
+  box-shadow: 0 0 1vh white;
+  font: bold 1.4vw consolas, sans-serif;
+}
+
+marquee {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  z-index: 1;
+  border-top: 0.5vh ridge white;
+  box-shadow: 0 0 1vh white;
+  background-color: black;
+}
+
+a.social-media {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 0.5vh white;
+  font: 1.5vw consolas, sans-serif;
+}
+
+a.social-media:hover {
+  font-style: italic;
+}
+
+a.logo-link {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 0.8vh white;
+  font: 4.5vw aquire, sans-serif;
+}
+
+a.logo-link:hover {
+  font: bold 4.5vw aquire, sans-serif;
+}
+
+a.footer-link {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 0.5vh white;
+  font: 1.7vw aquire, sans-serif;
+}
+
+a.footer-link:hover {
+  transition: 0.5s;
+  text-decoration: underline;
+  text-decoration-color:  #0069ba;
+  font: bold 1.7vw aquire, sans-serif;
 }
