@@ -1,2 +1,5 @@
 # adriksgames.githbub.io
-My offical website where I publish my games.
+Hello everyone!
+
+It's my official website where I publish my games.
+You can easily install any of them!
