@@ -9,11 +9,11 @@ I was creating the website for about 2 weeks with small breaks. 🤖<br>
 
 ## 📷 Here are a few screenshots of my website :
 
-<img src="/img/photo1.png"><br>
+<img src="/img/photo1.png" width="500" height="300"><br>
 
-<img src="/img/photo2.png"><br>
+<img src="/img/photo2.png" width="500" height="300"><br>
 
-<img src="/img/photo3.png"><br>
+<img src="/img/photo3.png" width="500" height="300"><br>
 
 <pre></pre>
 
