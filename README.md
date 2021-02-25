@@ -30,3 +30,5 @@ I was creating the website for about 2 weeks with small breaks. 🤖<br>
 ## 👀 I also invite you to my YouTube channel Adriks and to my discord!
 <b>My YouTube channel - https://www.youtube.com/channel/UCUyUmVT8Rnzv4mYIyyfwN_w </b><br>
 <b>Discord - https://discord.gg/g5V8ZJp (Nick - Adriks#1421) </b><br>
+
+<pre></pre>
