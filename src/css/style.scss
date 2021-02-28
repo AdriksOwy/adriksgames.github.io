@@ -192,6 +192,7 @@ span {
   align-items: center;
   top: 10%;
   width: 100%;
+  padding-bottom: 1vh;
   color: white;
   border-bottom: 0.3vh solid white;
   text-shadow: 0 0 1vh white;
@@ -224,7 +225,7 @@ span {
   z-index: 1;
   border: 1vh solid white;
   box-shadow: 0 0 1.5vh white;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .container-text {
