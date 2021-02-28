@@ -21,7 +21,7 @@ I was creating the website for about 2 weeks with small breaks. 🤖<br>
 
 • Click on the gamepad icon on the top right.<br>
 • Pick some game.<br>
-• Click on the "download" button.<br>
+• Click image to install the game.<br>
 
 <b>Finished! 🎉 Have a nice game! 😊</b><br>
 
