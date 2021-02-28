@@ -186,9 +186,14 @@ body {
 
 span {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 10%;
+  width: 100%;
   color: white;
   text-shadow: 0 0 1vh white;
+  background-color: blue;
   font: bold 2.5vw aquire, sans-serif;
 }
 
@@ -225,11 +230,23 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
-  width: 95%;
+  left: 5%;
+  width: 65%;
   color: white;
   text-align: justify;
   font: 1.5vw consolas, sans-serif;
+  background-color: red;
   text-shadow: 0 0 0.5vh white;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+  width: 20%;
+  height: 25vh;
 }
 
 .friends {
