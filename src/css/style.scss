@@ -100,6 +100,7 @@ body {
   border: 0;
   outline: 0;
   z-index: 3;
+  transition: 0.3s;
   color: white;
   text-shadow: 0 0 1vh white;
   background: transparent;
@@ -107,7 +108,7 @@ body {
 
 .button-menu:hover {
   transition: 0.3s;
-  font-size: 5.5vw;
+  font-size: 5.8vw;
   color: #e3e3e3;
 }
 
