@@ -193,7 +193,6 @@ span {
   width: 100%;
   color: white;
   text-shadow: 0 0 1vh white;
-  background-color: blue;
   font: bold 2.5vw aquire, sans-serif;
 }
 
@@ -211,7 +210,7 @@ span {
   z-index: 2;
 }
 
-.game-info {
+.game-contener {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,28 +224,46 @@ span {
   background-color: black;
 }
 
-p {
+.container-text {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 5%;
-  width: 65%;
+  left: 0;
+  bottom: 0;
+  width: 75%;
+  height: 55vh;
+}
+
+p {
+  width: 95%;
   color: white;
   text-align: justify;
   font: 1.5vw consolas, sans-serif;
-  background-color: red;
   text-shadow: 0 0 0.5vh white;
 }
 
-img {
+.container-img {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 5%;
-  width: 20%;
-  height: 25vh;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  height: 55vh;
+}
+
+a.img-downloadgame {
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+a.img-downloadgame:hover {
+  width: 90%;
 }
 
 .friends {
