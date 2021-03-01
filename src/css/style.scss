@@ -316,6 +316,49 @@ marquee {
   background-color: black;
 }
 
+
+
+
+
+
+@media(max-height: 700px) and (min-width: 1000px) {
+  p {
+    font: 1.2vw consolas, sans-serif !important;
+  }
+
+  a.img-downloadgame {
+    width: 60% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 70% !important;
+  }
+}
+
+@media(max-height: 500px) and (min-width: 1000px) {
+  p {
+    font: .9vw consolas, sans-serif !important;
+  }
+
+  a.img-downloadgame {
+    width: 35% !important;
+    padding-top: 8vh !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 40% !important;
+  }
+
+  span.title {
+    font: bold 1.3vw aquire, sans-serif !important;
+  }
+}
+
+/**/
+
+
+
+
 a.social-media {
   text-decoration: none;
   color: white;
@@ -335,7 +378,7 @@ a.logo-link {
 }
 
 a.logo-link:hover {
-  font: bold 4.5vw aquire, sans-serif;
+  font-weight: bold;
 }
 
 a.footer-link {
