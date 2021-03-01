@@ -316,11 +316,6 @@ marquee {
   background-color: black;
 }
 
-
-
-
-
-
 @media(max-height: 700px) and (min-width: 1000px) {
   p {
     font: 1.2vw consolas, sans-serif !important;
@@ -332,6 +327,18 @@ marquee {
   
   a.img-downloadgame:hover {
     width: 70% !important;
+  }
+
+  a.logo-link {
+    font: 3vw aquire, sans-serif !important;
+  }
+
+  .button-menu {
+    font-size: 3.5vw;
+  }
+  
+  .button-menu:hover {
+    font-size: 4vw;
   }
 }
 
@@ -352,12 +359,282 @@ marquee {
   span.title {
     font: bold 1.3vw aquire, sans-serif !important;
   }
+
+  a.logo-link {
+    font: 2vw aquire, sans-serif !important;
+  }
+
+  .button-menu {
+    font-size: 2vw;
+  }
+  
+  .button-menu:hover {
+    font-size: 2.3vw;
+  }
+
+  .friends {
+    font: bold .8vw consolas, sans-serif;
+  }
 }
 
-/**/
+@media(max-width: 1000px) and (min-height: 800px) {
+  p {
+    font: 2vw consolas, sans-serif !important;
+  }
 
+  .container-text {
+    top: 20% !important;
+    width: 100% !important;
+    height: 35vh !important;
+  }
 
+  .container-img {
+    width: 100% !important;
+    height: 15vh !important;
+  }
 
+  a.img-downloadgame {
+    width: 20% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 15% !important;
+  }
+
+  a.footer-link {
+    font: 3vw aquire, sans-serif !important;
+  }
+
+  a.social-media {
+    font: 2vw consolas, sans-serif !important;
+  }
+
+  .friends {
+    font: bold 2vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 1000px) and (max-height: 800px) {
+  p {
+    font: 1.5vw consolas, sans-serif !important;
+  }
+
+  .container-text {
+    top: 20% !important;
+    width: 100% !important;
+    height: 35vh !important;
+  }
+
+  .container-img {
+    width: 100% !important;
+    height: 15vh !important;
+  }
+
+  a.img-downloadgame {
+    width: 15% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 10% !important;
+  }
+
+  a.social-media {
+    font: 2.5vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 1000px) and (max-height: 530px) {
+  p {
+    font: 1.1vw consolas, sans-serif !important;
+  }
+
+  .container-img {
+    width: 100% !important;
+    height: 20vh !important;
+  }
+
+  a.img-downloadgame {
+    width: 10% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 5% !important;
+  }
+
+  a.logo-link {
+    font: 3vw aquire, sans-serif !important;
+  }
+
+  .button-menu {
+    font-size: 2vw;
+  }
+  
+  .button-menu:hover {
+    font-size: 2.3vw;
+  }
+
+  .friends {
+    font: bold 1.3vw consolas, sans-serif !important;
+  }
+
+  a.footer-link {
+    font: 2vw aquire, sans-serif !important;
+  }
+}
+
+@media(max-width: 700px) and (min-height: 800px) {
+  p {
+    font: 2.5vw consolas, sans-serif !important;
+  }
+
+  a.img-downloadgame {
+    width: 25% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 20% !important;
+  }
+
+  a.social-media {
+    font: 3.5vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 700px) and (max-height: 800px) {
+  p {
+    font: 2vw consolas, sans-serif !important;
+  }
+
+  a.img-downloadgame {
+    width: 15% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 10% !important;
+  }
+
+  a.footer-link {
+    font: 2.5vw aquire, sans-serif !important;
+  }
+
+  a.social-media {
+    font: 2.5vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 700px) and (max-height: 450px) {
+  p {
+    font: 1.5vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 500px) and (min-height: 800px) {
+  p {
+    font: 3vw consolas, sans-serif !important;
+  }
+
+  a.img-downloadgame {
+    width: 30% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 25% !important;
+  }
+
+  a.logo-link {
+    font: 6vw aquire, sans-serif !important;
+  }
+
+  a.footer-link {
+    font: 4vw aquire, sans-serif !important;
+  }
+
+  a.social-media {
+    font: 3.5vw consolas, sans-serif !important;
+  }
+
+  .friends {
+    font: bold 4vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 500px) and (max-height: 800px) {
+  p {
+    font: 2.5vw consolas, sans-serif !important;
+  }
+
+  a.img-downloadgame {
+    width: 30% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 25% !important;
+  }
+
+  .friends {
+    font: bold 3vw consolas, sans-serif !important;
+  }
+
+  a.footer-link {
+    font: 3vw aquire, sans-serif !important;
+  }
+
+  a.social-media {
+    font: 4vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 500px) and (max-height: 520px) {
+  p {
+    font: 1.8vw consolas, sans-serif !important;
+  }
+
+  a.img-downloadgame {
+    width: 15% !important;
+  }
+  
+  a.img-downloadgame:hover {
+    width: 10% !important;
+  }
+
+  .button-menu {
+    font-size: 4vw;
+  }
+  
+  .button-menu:hover {
+    font-size: 4.3vw;
+  }
+
+  a.footer-link {
+    font: 2vw aquire, sans-serif !important;
+  }
+
+  a.social-media {
+    font: 3vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 300px) and (min-height: 800px) {
+  p {
+    font: 4vw consolas, sans-serif !important;
+  }
+}
+
+@media(max-width: 300px) and (max-height: 800px) {
+  p {
+    font: 3.5vw consolas, sans-serif !important;
+  }
+
+  a.footer-link {
+    font: 4vw aquire, sans-serif !important;
+  }
+}
+
+@media(max-width: 300px) and (max-height: 500px) {
+  p {
+    font: 2.7vw consolas, sans-serif !important;
+  }
+}
 
 a.social-media {
   text-decoration: none;
@@ -391,5 +668,5 @@ a.footer-link {
 a.footer-link:hover {
   text-decoration: underline;
   text-decoration-color:  #0069ba;
-  font: bold 1.7vw aquire, sans-serif;
+  font-weight: bold;
 }
