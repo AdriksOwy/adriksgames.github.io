@@ -242,7 +242,7 @@ span.info-click-img {
   left: 0;
   bottom: 0;
   width: 75%;
-  height: 55vh;
+  height: 100%;
 }
 
 p {
@@ -261,11 +261,15 @@ p {
   right: 0;
   bottom: 0;
   width: 25%;
-  height: 55vh;
+  height: 100%;
   padding: 1vh;
 }
 
 a.img-downloadgame {
+  img {
+    width: 100%;
+    height: auto;
+  }
   transition: .5s;
   display: flex;
   justify-content: center;
