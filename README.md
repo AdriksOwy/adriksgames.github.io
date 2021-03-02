@@ -2,7 +2,7 @@
 <b>Hello everyone! 👋</b>
 
 It's my official website where I publish my games.<br>
-The games were created in the CTF 2.5 program <br>
+The games were created in the CTF 2.5 program.<br>
 You can easily install any of them!<br>
 I was creating the website for about 2 weeks with small breaks. 🤖<br>
 
