@@ -8,6 +8,11 @@
   -moz-user-select: none;
 }
 
+$first-color: black;
+$second-color: white;
+$third-color: #0069ba;
+$fourth-color: #e3e3e3;
+
 body {
   background: url('../../img/background.png') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,14 +21,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: $first-color;
   animation: fadein 2s;
 }
-
-$first-color: black;
-$second-color: white;
-$third-color: #0069ba;
-$fourth-color: #e3e3e3;
 
 #loader {
   display: flex;
@@ -34,9 +34,9 @@ $fourth-color: #e3e3e3;
   width: 10vh; 
   height: 10vh;
   z-index: 5;
-  border: 2vh solid white;
+  border: 2vh solid $second-color;
   border-radius: 50%; 
-  border-top: 2vh solid black;
+  border-top: 2vh solid $first-color;
   animation: load 1s linear infinite; 
 } 
 
@@ -87,9 +87,9 @@ $fourth-color: #e3e3e3;
   width: 100%;
   height: 10%;
   z-index: 1;
-  border-bottom: .5vh ridge white;
-  box-shadow: 0 0 1vh white;
-  background-color: black;
+  border-bottom: .5vh ridge $second-color;
+  box-shadow: 0 0 1vh $second-color;
+  background-color: $first-color;
 }
 
 .button-menu {
@@ -106,8 +106,8 @@ $fourth-color: #e3e3e3;
   outline: 0;
   z-index: 3;
   transition: .3s;
-  color: white;
-  text-shadow: 0 0 1vh white;
+  color: $second-color;
+  text-shadow: 0 0 1vh $second-color;
   background: transparent;
 
   &:hover {
@@ -145,8 +145,8 @@ $fourth-color: #e3e3e3;
   transform: translateX(100%);
   transition: .5s transform ease-in-out;
   z-index: 2;
-  border-left: .1vh ridge white;
-  background-color: black;
+  border-left: .1vh ridge $second-color;
+  background-color: $first-color;
 
   & ul {
     display: flex;
@@ -163,8 +163,8 @@ $fourth-color: #e3e3e3;
     margin-top: 4vh;
   
     &:hover {
-      box-shadow: 0 0 1.5vh white;
-      background-color: white;
+      box-shadow: 0 0 1.5vh $second-color;
+      background-color: $second-color;
     }
   }
 
@@ -176,16 +176,16 @@ $fourth-color: #e3e3e3;
     height: 100%;
     transition: .5s;
     text-decoration: none;
-    text-shadow: 0 0 .5vh white;
-    color: white;
+    text-shadow: 0 0 .5vh $second-color;
+    color: $second-color;
     font: bold 1.4vw consolas, sans-serif;
   
     &:hover {
       transition: .5s;
       text-decoration: underline;
       text-decoration-color:  #0069ba;
-      text-shadow: 0 0 .5vh black;
-      color: black;
+      text-shadow: 0 0 .5vh $first-color;
+      color: $first-color;
       font: bold 1.5vw consolas, sans-serif;
     }
   }
@@ -200,10 +200,10 @@ span {
     top: 10%;
     width: 100%;
     padding-bottom: 1vh;
-    color: white;
-    border-bottom: .3vh solid white;
-    text-shadow: 0 0 1vh white;
-    box-shadow: 0 .8vh 1vh white;
+    color: $second-color;
+    border-bottom: .3vh solid $second-color;
+    text-shadow: 0 0 1vh $second-color;
+    box-shadow: 0 .8vh 1vh $second-color;
     font: bold 2.5vw aquire, sans-serif;
   }
 
@@ -236,8 +236,8 @@ span {
   width: 65%;
   height: 65vh;
   z-index: 1;
-  border: 1vh solid white;
-  box-shadow: 0 0 1.5vh white;
+  border: 1vh solid $second-color;
+  box-shadow: 0 0 1.5vh $second-color;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -254,10 +254,10 @@ span {
 
 p {
   width: 95%;
-  color: white;
+  color: $second-color;
   text-align: justify;
   font: 1.5vw consolas, sans-serif;
-  text-shadow: 0 0 .5vh white;
+  text-shadow: 0 0 .5vh $second-color;
 }
 
 .container-img {
@@ -281,12 +281,12 @@ p {
   width: 40%;
   height: 5vh;
   z-index: 0;
-  color: white;
-  background-color: black;
-  border: .1vh ridge white;
+  color: $second-color;
+  background-color: $first-color;
+  border: .1vh ridge $second-color;
   border-radius: 3vh;
-  text-shadow: 0 0 .5vh white;
-  box-shadow: 0 0 1vh white;
+  text-shadow: 0 0 .5vh $second-color;
+  box-shadow: 0 0 1vh $second-color;
   font: bold 1.4vw consolas, sans-serif;
 }
 
@@ -306,9 +306,9 @@ marquee {
   width: 100%;
   height: 10%;
   z-index: 1;
-  border-top: .5vh ridge white;
-  box-shadow: 0 0 1vh white;
-  background-color: black;
+  border-top: .5vh ridge $second-color;
+  box-shadow: 0 0 1vh $second-color;
+  background-color: $first-color;
 }
 
 @media(max-height: 700px) and (min-width: 1000px) {
@@ -656,8 +656,8 @@ marquee {
 a {
   &.social-media {
     text-decoration: none;
-    color: white;
-    text-shadow: 0 0 1vh white;
+    color: $second-color;
+    text-shadow: 0 0 1vh $second-color;
     font: 1.5vw consolas, sans-serif;
   
     &.social-media:hover {
@@ -667,8 +667,8 @@ a {
 
   &.logo-link {
     text-decoration: none;
-    color: white;
-    text-shadow: 0 0 .8vh white;
+    color: $second-color;
+    text-shadow: 0 0 .8vh $second-color;
     font: 4.5vw aquire, sans-serif;
   
     &.logo-link:hover {
@@ -678,8 +678,8 @@ a {
   
   &.footer-link {
     text-decoration: none;
-    color: white;
-    text-shadow: 0 0 .5vh white;
+    color: $second-color;
+    text-shadow: 0 0 .5vh $second-color;
     font: 1.7vw aquire, sans-serif;
   
     &.footer-link:hover {
