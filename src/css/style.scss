@@ -20,6 +20,11 @@ body {
   animation: fadein 2s;
 }
 
+$first-color: black;
+$second-color: white;
+$third-color: #0069ba;
+$fourth-color: #e3e3e3;
+
 #loader {
   display: flex;
   justify-content: center;
@@ -29,7 +34,7 @@ body {
   width: 10vh; 
   height: 10vh;
   z-index: 5;
-  border: 2vh solid #f3f3f3; 
+  border: 2vh solid white;
   border-radius: 50%; 
   border-top: 2vh solid black;
   animation: load 1s linear infinite; 
