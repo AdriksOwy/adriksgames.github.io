@@ -643,37 +643,39 @@ marquee {
   }
 }
 
-a.social-media {
-  text-decoration: none;
-  color: white;
-  text-shadow: 0 0 1vh white;
-  font: 1.5vw consolas, sans-serif;
-
-  &.social-media:hover {
-    font-style: italic;
+a {
+  &.social-media {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 1vh white;
+    font: 1.5vw consolas, sans-serif;
+  
+    &.social-media:hover {
+      font-style: italic;
+    }
   }
-}
 
-a.logo-link {
-  text-decoration: none;
-  color: white;
-  text-shadow: 0 0 .8vh white;
-  font: 4.5vw aquire, sans-serif;
-
-  &.logo-link:hover {
-    font-weight: bold;
+  &.logo-link {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 .8vh white;
+    font: 4.5vw aquire, sans-serif;
+  
+    &.logo-link:hover {
+      font-weight: bold;
+    }
   }
-}
-
-a.footer-link {
-  text-decoration: none;
-  color: white;
-  text-shadow: 0 0 .5vh white;
-  font: 1.7vw aquire, sans-serif;
-
-  &.footer-link:hover {
-    text-decoration: underline;
-    text-decoration-color: #0069ba;
-    font-weight: bold;
+  
+  &.footer-link {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 .5vh white;
+    font: 1.7vw aquire, sans-serif;
+  
+    &.footer-link:hover {
+      text-decoration: underline;
+      text-decoration-color: #0069ba;
+      font-weight: bold;
+    }
   }
 }
