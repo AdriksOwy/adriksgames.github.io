@@ -104,19 +104,19 @@ body {
   color: white;
   text-shadow: 0 0 1vh white;
   background: transparent;
-}
 
-.button-menu:hover {
-  transition: .3s;
-  font-size: 5.8vw;
-  color: #e3e3e3;
-}
-
-.button-menu:active {
-  padding-top: .5vh;
-  transition: 0s;
-  text-shadow: 0 0 1vh #0069ba;
-  color: #0069ba;
+  &:hover {
+    transition: .3s;
+    font-size: 5.8vw;
+    color: #e3e3e3;
+  }
+  
+  &:active {
+    padding-top: .5vh;
+    transition: 0s;
+    text-shadow: 0 0 1vh #0069ba;
+    color: #0069ba;
+  }
 }
 
 .menu {
@@ -141,7 +141,7 @@ body {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   transform: translateX(0);
-  box-shadow: 0 0 1vh white;
+  box-shadow: 0 0 1vh #0069ba;
 }
 
 .menu ul {
