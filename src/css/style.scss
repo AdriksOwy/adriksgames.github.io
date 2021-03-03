@@ -266,17 +266,18 @@ p {
 }
 
 a.img-downloadgame {
-  img {
-    width: 100%;
-    height: auto;
-  }
   transition: .5s;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
 
-  &.img-downloadgame:hover {
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  &:hover {
     width: 90%;
   }
 }
