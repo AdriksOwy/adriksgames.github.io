@@ -539,25 +539,27 @@ marquee {
   p {
     font: 3vw consolas, sans-serif !important;
   }
-
-  a.img-downloadgame {
-    width: 30% !important;
-
-    &:hover {
-      width: 25% !important;
-    }
-  }
   
-  a.logo-link {
-    font: 6vw aquire, sans-serif !important;
-  }
+  a {
+    &.img-downloadgame {
+      width: 30% !important;
+  
+      &:hover {
+        width: 25% !important;
+      }
+    }
 
-  a.footer-link {
-    font: 4vw aquire, sans-serif !important;
-  }
-
-  a.social-media {
-    font: 3.5vw consolas, sans-serif !important;
+    &.logo-link {
+      font: 6vw aquire, sans-serif !important;
+    }
+  
+    &.footer-link {
+      font: 4vw aquire, sans-serif !important;
+    }
+  
+    &.social-media {
+      font: 3.5vw consolas, sans-serif !important;
+    }
   }
 
   .friends {
@@ -636,8 +638,10 @@ marquee {
     font: 3.5vw consolas, sans-serif !important;
   }
 
-  a.footer-link {
-    font: 4vw aquire, sans-serif !important;
+  a {
+    &.footer-link {
+      font: 4vw aquire, sans-serif !important;
+    }
   }
 }
 
