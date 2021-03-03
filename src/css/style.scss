@@ -328,23 +328,25 @@ marquee {
     font: 1.2vw consolas, sans-serif !important;
   }
 
-  a.img-downloadgame {
-    width: 60% !important;
-
-    &:hover {
-      width: 70% !important;
-    }
-  }
-
-  a.logo-link {
-    font: 3vw aquire, sans-serif !important;
-  }
-
   .button-menu {
     font-size: 3.5vw !important;
 
     &:hover {
       font-size: 4vw !important;
+    }
+  }
+
+  a {
+    &.img-downloadgame {
+      width: 60% !important;
+  
+      &:hover {
+        width: 70% !important;
+      }
+    }
+  
+    &.logo-link {
+      font: 3vw aquire, sans-serif !important;
     }
   }
 }
@@ -354,21 +356,8 @@ marquee {
     font: .9vw consolas, sans-serif !important;
   }
 
-  a.img-downloadgame {
-    width: 35% !important;
-    padding-top: 8vh !important;
-
-    &:hover {
-      width: 40% !important;
-    }
-  }
-
   span.title {
     font: bold 1.3vw aquire, sans-serif !important;
-  }
-
-  a.logo-link {
-    font: 2vw aquire, sans-serif !important;
   }
 
   .button-menu {
@@ -381,6 +370,21 @@ marquee {
 
   .friends {
     font: bold .8vw consolas, sans-serif !important;
+  }
+
+  a {
+    &.logo-link {
+      font: 2vw aquire, sans-serif !important;
+    }
+
+    &.img-downloadgame {
+      width: 35% !important;
+      padding-top: 8vh !important;
+  
+      &:hover {
+        width: 40% !important;
+      }
+    }
   }
 }
 
@@ -400,24 +404,26 @@ marquee {
     height: 15vh !important;
   }
 
-  a.img-downloadgame {
-    width: 20% !important;
-
-    &:hover {
-      width: 15% !important;
-    }
-  }
-
-  a.footer-link {
-    font: 3vw aquire, sans-serif !important;
-  }
-
-  a.social-media {
-    font: 2vw consolas, sans-serif !important;
-  }
-
   .friends {
     font: bold 2vw consolas, sans-serif !important;
+  }
+
+  a {
+    &.footer-link {
+      font: 3vw aquire, sans-serif !important;
+    }
+  
+    &.social-media {
+      font: 2vw consolas, sans-serif !important;
+    }
+
+    &.img-downloadgame {
+      width: 20% !important;
+  
+      &:hover {
+        width: 15% !important;
+      }
+    }
   }
 }
 
