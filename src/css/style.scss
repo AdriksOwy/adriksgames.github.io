@@ -539,12 +539,12 @@ marquee {
 
   a.img-downloadgame {
     width: 30% !important;
+
+    &:hover {
+      width: 25% !important;
+    }
   }
   
-  a.img-downloadgame:hover {
-    width: 25% !important;
-  }
-
   a.logo-link {
     font: 6vw aquire, sans-serif !important;
   }
@@ -569,12 +569,12 @@ marquee {
 
   a.img-downloadgame {
     width: 30% !important;
+
+    &:hover {
+      width: 25% !important;
+    }
   }
   
-  a.img-downloadgame:hover {
-    width: 25% !important;
-  }
-
   .friends {
     font: bold 3vw consolas, sans-serif !important;
   }
@@ -595,20 +595,20 @@ marquee {
 
   a.img-downloadgame {
     width: 15% !important;
+
+    &:hover {
+      width: 10% !important;
+    }
   }
   
-  a.img-downloadgame:hover {
-    width: 10% !important;
-  }
-
   .button-menu {
     font-size: 4vw !important;
+    
+    &.hover {
+      font-size: 4.3vw !important;
+    }
   }
   
-  .button-menu:hover {
-    font-size: 4.3vw !important;
-  }
-
   a.footer-link {
     font: 2vw aquire, sans-serif !important;
   }
