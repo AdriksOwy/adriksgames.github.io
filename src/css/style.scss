@@ -459,10 +459,10 @@ marquee {
 
   a.img-downloadgame {
     width: 10% !important;
-  }
-  
-  a.img-downloadgame:hover {
-    width: 5% !important;
+
+    &:hover {
+      width: 5% !important;
+    }
   }
 
   a.logo-link {
@@ -471,10 +471,10 @@ marquee {
 
   .button-menu {
     font-size: 2vw !important;
-  }
-  
-  .button-menu:hover {
-    font-size: 2.3vw !important;
+
+    &:hover {
+      font-size: 2.3vw !important;
+    }
   }
 
   .friends {
