@@ -31,7 +31,7 @@ body {
   z-index: 5;
   border: 2vh solid #f3f3f3; 
   border-radius: 50%; 
-  border-top: 2vh solid #001d7c7a;
+  border-top: 2vh solid black;
   animation: load 1s linear infinite; 
 } 
 
@@ -119,6 +119,13 @@ body {
   }
 }
 
+.button-menu:focus ~ .menu, .menu:hover {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  transform: translateX(0);
+  box-shadow: 0 0 1vh #0069ba;
+}
+
 .menu {
   display: flex;
   justify-content: center;
@@ -177,13 +184,6 @@ body {
       font: bold 1.5vw consolas, sans-serif;
     }
   }
-}
-
-.button-menu:focus ~ .menu, .menu:hover {
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  transform: translateX(0);
-  box-shadow: 0 0 1vh #0069ba;
 }
 
 span {
