@@ -437,16 +437,18 @@ marquee {
     height: 15vh !important;
   }
 
-  a.img-downloadgame {
-    width: 15% !important;
-
-    &:hover {
-      width: 10% !important;
-    }
-  }
+  a {
+    &.img-downloadgame {
+      width: 15% !important;
   
-  a.social-media {
-    font: 2.5vw consolas, sans-serif !important;
+      &:hover {
+        width: 10% !important;
+      }
+    }
+    
+    &.social-media {
+      font: 2.5vw consolas, sans-serif !important;
+    }
   }
 }
 
@@ -458,18 +460,6 @@ marquee {
   .container-img {
     width: 100% !important;
     height: 20vh !important;
-  }
-
-  a.img-downloadgame {
-    width: 10% !important;
-
-    &:hover {
-      width: 5% !important;
-    }
-  }
-
-  a.logo-link {
-    font: 3vw aquire, sans-serif !important;
   }
 
   .button-menu {
@@ -484,8 +474,22 @@ marquee {
     font: bold 1.3vw consolas, sans-serif !important;
   }
 
-  a.footer-link {
-    font: 2vw aquire, sans-serif !important;
+  a {
+    &.footer-link {
+      font: 2vw aquire, sans-serif !important;
+    }
+
+    &.img-downloadgame {
+      width: 10% !important;
+  
+      &:hover {
+        width: 5% !important;
+      }
+    }
+  
+    &.logo-link {
+      font: 3vw aquire, sans-serif !important;
+    }
   }
 }
 
@@ -493,17 +497,19 @@ marquee {
   p {
     font: 2.5vw consolas, sans-serif !important;
   }
-
-  a.img-downloadgame {
-    width: 25% !important;
-
-    &:hover {
-      width: 20% !important;
-    }
-  }
   
-  a.social-media {
-    font: 3.5vw consolas, sans-serif !important;
+  a {
+    &.img-downloadgame {
+      width: 25% !important;
+  
+      &:hover {
+        width: 20% !important;
+      }
+    }
+    
+    &.social-media {
+      font: 3.5vw consolas, sans-serif !important;
+    }
   }
 }
 
@@ -512,20 +518,22 @@ marquee {
     font: 2vw consolas, sans-serif !important;
   }
 
-  a.img-downloadgame {
-    width: 15% !important;
-
-    &:hover {
-      width: 10% !important;
-    }
-  }
+  a {
+    &.img-downloadgame {
+      width: 15% !important;
   
-  a.footer-link {
-    font: 2.5vw aquire, sans-serif !important;
-  }
-
-  a.social-media {
-    font: 2.5vw consolas, sans-serif !important;
+      &:hover {
+        width: 10% !important;
+      }
+    }
+    
+    &.footer-link {
+      font: 2.5vw aquire, sans-serif !important;
+    }
+  
+    &.social-media {
+      font: 2.5vw consolas, sans-serif !important;
+    }
   }
 }
 
