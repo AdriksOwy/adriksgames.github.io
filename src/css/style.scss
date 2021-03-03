@@ -493,12 +493,12 @@ marquee {
 
   a.img-downloadgame {
     width: 25% !important;
+
+    &:hover {
+      width: 20% !important;
+    }
   }
   
-  a.img-downloadgame:hover {
-    width: 20% !important;
-  }
-
   a.social-media {
     font: 3.5vw consolas, sans-serif !important;
   }
@@ -511,12 +511,12 @@ marquee {
 
   a.img-downloadgame {
     width: 15% !important;
+
+    &:hover {
+      width: 10% !important;
+    }
   }
   
-  a.img-downloadgame:hover {
-    width: 10% !important;
-  }
-
   a.footer-link {
     font: 2.5vw aquire, sans-serif !important;
   }
