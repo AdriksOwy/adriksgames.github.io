@@ -119,8 +119,8 @@ body {
   &:active {
     padding-top: .5vh;
     transition: 0s;
-    text-shadow: 0 0 1vh #0069ba;
-    color: #0069ba;
+    text-shadow: 0 0 1vh $third-color;
+    color: $third-color;
   }
 }
 
@@ -128,7 +128,7 @@ body {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   transform: translateX(0);
-  box-shadow: 0 0 1vh #0069ba;
+  box-shadow: 0 0 1vh $third-color;
 }
 
 .menu {
@@ -183,7 +183,7 @@ body {
     &:hover {
       transition: .5s;
       text-decoration: underline;
-      text-decoration-color:  #0069ba;
+      text-decoration-color:  $third-color;
       text-shadow: 0 0 .5vh $first-color;
       color: $first-color;
       font: bold 1.5vw consolas, sans-serif;
@@ -684,7 +684,7 @@ a {
   
     &.footer-link:hover {
       text-decoration: underline;
-      text-decoration-color: #0069ba;
+      text-decoration-color: $third-color;
       font-weight: bold;
     }
   }
