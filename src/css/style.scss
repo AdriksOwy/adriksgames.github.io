@@ -36,7 +36,7 @@ body {
   z-index: 5;
   border: 2vh solid $second-color;
   border-radius: 50%; 
-  border-top: 2vh solid $first-color;
+  border-top: 2vh solid $fourth-color;
   animation: load 1s linear infinite; 
 } 
 
@@ -113,7 +113,7 @@ body {
   &:hover {
     transition: .3s;
     font-size: 5.8vw;
-    color: #e3e3e3;
+    color: $fourth-color;
   }
   
   &:active {
