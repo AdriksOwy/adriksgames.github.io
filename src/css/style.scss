@@ -267,23 +267,6 @@ p {
   padding: 1vh;
 }
 
-a.img-downloadgame {
-  transition: .5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  &:hover {
-    width: 90%;
-  }
-}
-
 .friends {
   display: flex;
   justify-content: center;
@@ -698,6 +681,23 @@ a {
       text-decoration: underline;
       text-decoration-color: #0069ba;
       font-weight: bold;
+    }
+  }
+
+  &.img-downloadgame {
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    &:hover {
+      width: 90%;
     }
   }
 }
