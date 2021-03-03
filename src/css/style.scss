@@ -275,10 +275,10 @@ a.img-downloadgame {
   justify-content: center;
   align-items: center;
   width: 80%;
-}
 
-a.img-downloadgame:hover {
-  width: 90%;
+  &.img-downloadgame:hover {
+    width: 90%;
+  }
 }
 
 .friends {
@@ -338,11 +338,11 @@ marquee {
   }
 
   .button-menu {
-    font-size: 3.5vw;
+    font-size: 3.5vw !important;
   }
   
   .button-menu:hover {
-    font-size: 4vw;
+    font-size: 4vw !important;
   }
 }
 
@@ -369,15 +369,15 @@ marquee {
   }
 
   .button-menu {
-    font-size: 2vw;
+    font-size: 2vw !important;
   }
   
   .button-menu:hover {
-    font-size: 2.3vw;
+    font-size: 2.3vw !important;
   }
 
   .friends {
-    font: bold .8vw consolas, sans-serif;
+    font: bold .8vw consolas, sans-serif !important;
   }
 }
 
@@ -470,11 +470,11 @@ marquee {
   }
 
   .button-menu {
-    font-size: 2vw;
+    font-size: 2vw !important;
   }
   
   .button-menu:hover {
-    font-size: 2.3vw;
+    font-size: 2.3vw !important;
   }
 
   .friends {
@@ -602,11 +602,11 @@ marquee {
   }
 
   .button-menu {
-    font-size: 4vw;
+    font-size: 4vw !important;
   }
   
   .button-menu:hover {
-    font-size: 4.3vw;
+    font-size: 4.3vw !important;
   }
 
   a.footer-link {
@@ -645,10 +645,10 @@ a.social-media {
   color: white;
   text-shadow: 0 0 1vh white;
   font: 1.5vw consolas, sans-serif;
-}
 
-a.social-media:hover {
-  font-style: italic;
+  &.social-media:hover {
+    font-style: italic;
+  }
 }
 
 a.logo-link {
@@ -656,10 +656,10 @@ a.logo-link {
   color: white;
   text-shadow: 0 0 .8vh white;
   font: 4.5vw aquire, sans-serif;
-}
 
-a.logo-link:hover {
-  font-weight: bold;
+  &.logo-link:hover {
+    font-weight: bold;
+  }
 }
 
 a.footer-link {
@@ -667,10 +667,10 @@ a.footer-link {
   color: white;
   text-shadow: 0 0 .5vh white;
   font: 1.7vw aquire, sans-serif;
-}
 
-a.footer-link:hover {
-  text-decoration: underline;
-  text-decoration-color:  #0069ba;
-  font-weight: bold;
+  &.footer-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #0069ba;
+    font-weight: bold;
+  }
 }
