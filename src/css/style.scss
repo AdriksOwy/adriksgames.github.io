@@ -135,6 +135,48 @@ body {
   z-index: 2;
   border-left: .1vh ridge white;
   background-color: black;
+
+  & ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20%;
+    list-style-type: none;
+  }
+  
+  & li {
+    display: flex;
+    flex-basis: 100%;
+    height: 6vh;
+    margin-top: 4vh;
+  
+    &:hover {
+      box-shadow: 0 0 1.5vh white;
+      background-color: white;
+    }
+  }
+
+  & a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    text-decoration: none;
+    text-shadow: 0 0 .5vh white;
+    color: white;
+    font: bold 1.4vw consolas, sans-serif;
+  
+    &:hover {
+      transition: .5s;
+      text-decoration: underline;
+      text-decoration-color:  #0069ba;
+      text-shadow: 0 0 .5vh black;
+      color: black;
+      font: bold 1.5vw consolas, sans-serif;
+    }
+  }
 }
 
 .button-menu:focus ~ .menu, .menu:hover {
@@ -142,48 +184,6 @@ body {
   -moz-transform: translateX(0);
   transform: translateX(0);
   box-shadow: 0 0 1vh #0069ba;
-}
-
-.menu ul {
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 20%;
-  list-style-type: none;
-}
-
-.menu li {
-  display: flex;
-  flex-basis: 100%;
-  height: 6vh;
-  margin-top: 4vh;
-
-  &:hover {
-    box-shadow: 0 0 1.5vh white;
-    background-color: white;
-  }
-}
-
-.menu a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  transition: .5s;
-  text-decoration: none;
-  text-shadow: 0 0 .5vh white;
-  color: white;
-  font: bold 1.4vw consolas, sans-serif;
-
-  &:hover {
-    transition: .5s;
-    text-decoration: underline;
-    text-decoration-color:  #0069ba;
-    text-shadow: 0 0 .5vh black;
-    color: black;
-    font: bold 1.5vw consolas, sans-serif;
-  }
 }
 
 span.title {
